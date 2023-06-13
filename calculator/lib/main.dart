@@ -151,7 +151,7 @@ class _CalculatorState extends State<Calculator> {
               child:ElevatedButton(
                 style: ElevatedButton.styleFrom(
                shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(16.0),
+                borderRadius: BorderRadius.circular(22.0),
                 ),
                  padding: EdgeInsets.all(22),
 //             backgroundColor: buttonColor,
@@ -159,7 +159,7 @@ class _CalculatorState extends State<Calculator> {
               onPressed:() => onbuttonclick(text) ,
               child: Text(
                 text,
-                 style: TextStyle(fontSize: 15.0),),
+                 style: TextStyle(fontSize: 20.0),),
                
               ),
                ),
